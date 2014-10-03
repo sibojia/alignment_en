@@ -1,0 +1,134 @@
+1
+00:00:12,604 --> 00:00:14,726
+In this lesson, we shall learn
+
+2
+00:00:15,474 --> 00:00:17,160
+how to do well in combinatorics.
+
+3
+00:00:17,786 --> 00:00:21,965
+Essentially, the problem of how to count well.
+
+4
+00:00:22,402 --> 00:00:25,003
+Everyone knows the fundamental concept behind counting.
+
+5
+00:00:25,123 --> 00:00:28,084
+We simply count one by one.
+
+6
+00:00:28,204 --> 00:00:31,992
+In computing, there is a rather more elegant term for this:
+
+7
+00:00:32,112 --> 00:00:37,826
+enumeration - to highlight its enumerative nature,
+
+8
+00:00:37,946 --> 00:00:40,300
+we in fact call it
+9
+00:00:40,420 --> 00:00:43,712
+brute-force enumeration.
+
+10
+00:00:43,832 --> 00:00:45,504
+By its name, we can tell
+
+11
+00:00:45,624 --> 00:00:49,655
+that it's not an overly efficient method.
+
+12
+00:00:49,775 --> 00:00:52,511
+The thinking behind brute-force enumeration
+
+13
+00:00:52,631 --> 00:00:57,683
+is to count every single one of the possible solutions in turn.
+
+14
+00:00:57,803 --> 00:01:01,918
+In theory, it can solve all counting problems.
+
+15
+00:01:02,038 --> 00:01:04,071
+Of course, saying it works in theory
+
+16
+00:01:04,191 --> 00:01:08,953
+implies that it often fails in practice.
+
+17
+00:01:09,073 --> 00:01:11,942
+Let's see a simple example.
+
+18
+00:01:12,062 --> 00:01:15,231
+There's a football World Cup this year(2014).
+
+19
+00:01:15,351 --> 00:01:19,116
+Many students may encounter an awkward problem:
+
+20
+00:01:19,236 --> 00:01:24,336
+So many matches, right in the middle of exam season, what should I do?
+
+21
+00:01:24,456 --> 00:01:28,172
+Even if we refrain from watching the group-stage matches,
+
+22
+00:01:28,292 --> 00:01:33,190
+we can't bear to miss the elimination rounds. But how many of those are there?
+
+23
+00:01:33,310 --> 00:01:36,877
+We should plan out our time in advance.
+
+24
+00:01:36,997 --> 00:01:38,422
+So let's see,
+
+25
+00:01:38,542 --> 00:01:43,841
+In fact, we have to count how many elimination matches there are altogether.
+
+26
+00:01:45,619 --> 00:01:48,249
+Only 16 teams attending the World Cup
+
+27
+00:01:48,369 --> 00:01:50,215
+will advance to the knockout rounds.
+
+28
+00:01:50,335 --> 00:01:51,705
+The tournament system becomes very harsh:
+
+29
+00:01:52,498 --> 00:01:56,605
+single elimination, pitting two teams head-to-head,
+
+30
+00:01:56,725 --> 00:02:00,183
+with only the winner proceeding to the next round,
+
+31
+00:02:00,303 --> 00:02:01,784
+until the champion is decided.
+
+32
+00:02:01,904 --> 00:02:05,039
+How many matches have to be played in this process?
+
+33
+00:02:06,726 --> 00:02:08,555
+Let's think about it carefully first,
+
+34
+00:02:08,675 --> 00:02:11,042
+and then have a little quiz as following.

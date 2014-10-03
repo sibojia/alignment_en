@@ -1,0 +1,1265 @@
+1
+00:00:19,586 --> 00:00:23,124
+So, can we tell what this is?
+
+2
+00:00:23,244 --> 00:00:27,036
+This is one of the earliest examples of combinatorics - magic squares.
+
+3
+00:00:27,156 --> 00:00:30,037
+Combinatorics is an ancient field.
+
+4
+00:00:30,277 --> 00:00:32,503
+Its history may be traced back over 4000 years
+
+5
+00:00:32,623 --> 00:00:34,469
+to the age of the Great Yu.
+
+6
+00:00:34,589 --> 00:00:38,991
+According to Chinese myth, the Great Yu tamed the Yellow River.
+
+7
+00:00:39,111 --> 00:00:40,436
+There is a legend that says:
+
+8
+00:00:40,556 --> 00:00:41,935
+while working to tame the river,
+9
+00:00:42,055 --> 00:00:43,946
+The Great Yu was very worried.
+
+10
+00:00:44,066 --> 00:00:45,799
+One day, he was strolling by the riverbank,
+
+11
+00:00:45,919 --> 00:00:49,739
+when a giant tortoise rose from the Yellow River.
+
+12
+00:00:49,859 --> 00:00:51,742
+This tortoise was not only huge, 
+
+13
+00:00:51,862 --> 00:00:53,094
+but even more amazingly,
+
+14
+00:00:53,214 --> 00:00:56,519
+there were mysterious patterns on its back.
+
+15
+00:00:56,639 --> 00:00:58,406
+If we study the patterns carefully,
+
+16
+00:00:58,526 --> 00:01:01,238
+we discover that its back is divided up into nine squares.
+
+17
+00:01:01,358 --> 00:01:04,048
+Each square contains a number of dots.
+
+18
+00:01:04,168 --> 00:01:07,608
+If we add up the dots of each row,
+
+19
+00:01:07,728 --> 00:01:09,776
+or of all columns,
+
+20
+00:01:09,896 --> 00:01:12,723
+or even of each diagonal,
+
+21
+00:01:12,843 --> 00:01:15,250
+all add up to 15.
+
+22
+00:01:15,370 --> 00:01:19,838
+Fifteen is quite a special number in the Chinese lunar calendar,
+
+23
+00:01:19,958 --> 00:01:23,892
+since solar terms last fifteen days each.
+
+24
+00:01:24,012 --> 00:01:26,995
+So the Great Yu was inspired by this mysterious pattern,
+
+25
+00:01:27,115 --> 00:01:31,534
+and divided the work accordingly into fifteen days periods.
+
+26
+00:01:31,654 --> 00:01:35,300
+Magic squares appear not only in ancient literature,
+
+27
+00:01:35,420 --> 00:01:38,599
+but even in well-known works in film and television,
+
+28
+00:01:38,719 --> 00:01:39,967
+they appear frequently.
+
+29
+00:01:40,087 --> 00:01:43,568
+Next, we'll watch a short clip from "The Legend of the Condor Heroes"
+
+30
+00:01:51,148 --> 00:01:53,338
+Ying-gu, who lives in the cabin by the black swamp,
+
+31
+00:01:53,458 --> 00:01:56,867
+was studying how to form a 3x3 magic square.
+
+32
+00:01:56,987 --> 00:01:58,929
+Yet over a decade passed,
+
+33
+00:01:59,049 --> 00:02:00,637
+and she still could not reach a perfect solution.
+
+34
+00:02:00,757 --> 00:02:05,312
+Until Rong Huang came to the cabin, that was...
+
+35
+00:02:05,432 --> 00:02:07,792
+Your arithmetic obviously bests me,
+
+36
+00:02:07,912 --> 00:02:09,058
+but let me ask you.
+
+37
+00:02:09,178 --> 00:02:11,933
+Separate the numbers one to nine into three columns,
+
+38
+00:02:12,053 --> 00:02:13,550
+so that for every row, column and diagonal,
+
+39
+00:02:13,670 --> 00:02:15,985
+The sum of the three numbers is fifteen.
+
+40
+00:02:16,105 --> 00:02:17,441
+How to order the numbers?
+
+41
+00:02:17,561 --> 00:02:19,959
+Magic square of nine, use the method of the tortoise:
+
+42
+00:02:20,079 --> 00:02:21,948
+Two and four the shoulders, six and eight the feet.
+
+
+43
+00:02:22,068 --> 00:02:24,058
+three left, seven right, nine top and one bottom.
+
+44
+00:02:24,178 --> 00:02:26,611
+Five in the middle.
+
+45
+00:02:26,731 --> 00:02:31,941
+I thought I created this magic formula,
+
+46
+00:02:32,061 --> 00:02:35,427
+but little did I suspect that it is laid down in verse!
+
+47
+00:02:35,547 --> 00:02:38,220
+Then how do you transform each square into eight-diagrams?
+
+48
+00:02:38,340 --> 00:02:40,036
+Eight times nine is seventy-two.
+
+49
+00:02:40,156 --> 00:02:41,961
+For the numbers from one to seventy-two,
+
+50
+00:02:42,081 --> 00:02:45,023
+Encircle the nine squares with eight numbers each time,
+
+51
+00:02:45,143 --> 00:02:46,939
+with four circles at the intersections.
+
+52
+00:02:47,059 --> 00:02:48,579
+Altogether there are thirteen circles.
+
+53
+00:02:48,699 --> 00:02:51,167
+The sum of the numbers in each circle comes to 292.
+
+54
+00:02:54,426 --> 00:02:56,145
+This is the magic of the graph from the Book of Luo.
+
+55
+00:02:56,265 --> 00:02:57,976
+You won't understand anyway.
+
+56
+00:02:59,520 --> 00:03:04,536
+So is it really as commonplace as Rong Huang says?
+
+57
+00:03:04,656 --> 00:03:07,859
+In fact the first person to investigate magic squares
+
+58
+00:03:07,979 --> 00:03:10,236
+should be the mathematician Hui Yang from the Southern Song dynasty.
+
+59
+00:03:11,155 --> 00:03:14,942
+In China, Pascal's Triangle is actually named Hui Yang's Triangle.
+
+60
+00:03:15,081 --> 00:03:16,611
+Aside from this,
+
+61
+00:03:16,731 --> 00:03:21,619
+He authored the very interesting mathematical treatise "Classic Algorithms".
+
+62
+00:03:21,739 --> 00:03:28,155
+Within, he detailed 3 by 3, 4 by 4, 5 by 5
+
+63
+00:03:28,275 --> 00:03:31,448
+and even 10 by 10 magic squares.
+
+64
+00:03:31,568 --> 00:03:37,275
+So as we can see, apart from the 3 by 3 magic square found on the tortoise,
+
+65
+00:03:37,395 --> 00:03:41,684
+There are many much larger magic squares.
+
+66
+00:03:41,804 --> 00:03:43,040
+Western mathematicicians, too,
+
+67
+00:03:43,160 --> 00:03:46,002
+delved into the secrets of magic squares.
+
+68
+00:03:46,122 --> 00:03:48,707
+There was even a famous engraving
+
+69
+00:03:48,827 --> 00:03:50,495
+named Melancolia I.
+
+70
+00:03:50,615 --> 00:03:55,829
+In the top-right corner of the engraving, there is a 4 by 4 magic square.
+
+71
+00:03:57,467 --> 00:03:59,056
+Let's examine carefully
+
+72
+00:03:59,176 --> 00:04:00,537
+this 4 by 4 magic square.
+
+73
+00:04:00,657 --> 00:04:03,172
+In the two squares in the middle of the last row,
+
+74
+00:04:03,292 --> 00:04:05,981
+one holds a 15 and the other 14.
+
+75
+00:04:06,101 --> 00:04:08,624
+This demonstrates the cleverness of the artist,
+
+76
+00:04:08,744 --> 00:04:14,254
+for this engraving dates backs back to 1514.
+
+77
+00:04:14,374 --> 00:04:17,234
+So it can be seen that the secrets behind the ordering in magic squares
+
+78
+00:04:17,354 --> 00:04:21,097
+are almost beyond the imagination of mankind,
+
+79
+00:04:21,217 --> 00:04:25,712
+and some feel that magic squares harbour secrets of the universe.
+
+80
+00:04:25,832 --> 00:04:28,488
+For precisely this reason, in many religions,
+
+81
+00:04:28,608 --> 00:04:30,843
+magic squares hold special symbolic significance.
+
+82
+00:04:30,963 --> 00:04:38,011
+Even within their temples, magic squares are carved onto the walls.
+
+83
+00:04:38,131 --> 00:04:39,670
+So if we are to study magic squares,
+
+84
+00:04:39,790 --> 00:04:42,074
+We must first give them a formal definition,
+
+85
+00:04:43,428 --> 00:04:45,313
+a prerequisite for any rigorous mathematical investigation.
+
+86
+00:04:45,433 --> 00:04:48,064
+First we must have an n by n grid.
+
+87
+00:04:49,606 --> 00:04:52,054
+shall put the numbers 1, 2, 3...
+
+88
+00:04:52,174 --> 00:04:54,698
+all the way up to n squared
+
+89
+00:04:54,818 --> 00:04:57,723
+into the n by n grid.
+
+90
+00:04:57,843 --> 00:05:02,510
+We must guarantee that for every row and column,
+
+91
+00:05:02,630 --> 00:05:04,268
+and even for its diagonals,
+
+92
+00:05:04,388 --> 00:05:09,108
+the sum of the relevant numbers are identical.
+
+93
+00:05:09,228 --> 00:05:11,963
+So for a magic square of arbitrary size,
+
+94
+00:05:12,083 --> 00:05:13,433
+in order to study it,
+
+95
+00:05:13,553 --> 00:05:17,973
+we must first calculate the sum on the rows, columns and diagonals.
+
+96
+00:05:18,093 --> 00:05:21,141
+So we define the sum of each row
+
+97
+00:05:21,261 --> 00:05:22,465
+and each column
+
+98
+00:05:22,585 --> 00:05:25,252
+and each diagonal
+
+99
+00:05:25,372 --> 00:05:28,057
+to be the magic sum (or magic constant).
+
+100
+00:05:28,177 --> 00:05:30,892
+Let's denote this sum by the lowercase letter s.
+
+101
+00:05:31,012 --> 00:05:33,178
+Then for a magic square of size n,
+
+102
+00:05:33,298 --> 00:05:37,029
+if we wish to calculate s...
+
+103
+00:05:37,149 --> 00:05:39,928
+Well, what's the sum of all the numbers from
+
+104
+00:05:40,048 --> 00:05:40,945
+1, 2, 3
+
+105
+00:05:41,065 --> 00:05:42,721
+all the way up to n^2?
+
+106
+00:05:42,841 --> 00:05:44,039
+There is a formula for this:
+
+107
+00:05:44,159 --> 00:05:46,698
+the sum of 1+2+3+...all the way up to n^2
+
+108
+00:05:46,818 --> 00:05:52,377
+is equal to n^2(n^2+1)/2
+
+109
+00:05:52,497 --> 00:05:53,858
+but this number
+
+110
+00:05:53,978 --> 00:05:57,985
+is precisely n times s.
+
+111
+00:05:58,105 --> 00:06:01,695
+So the magic sum of the magic square is equal to 
+
+112
+00:06:01,815 --> 00:06:04,079
+n^2(n^2+1)/2
+
+113
+00:06:04,199 --> 00:06:05,647
+divided by n
+
+114
+00:06:05,767 --> 00:06:08,696
+Now, for a magic square of size n,
+
+115
+00:06:08,816 --> 00:06:12,315
+We know the magic sum should be equal to
+
+116
+00:06:12,435 --> 00:06:15,921
+n(n^2+1)/2
+
+117
+00:06:16,041 --> 00:06:17,351
+Since for every natural number n,
+
+118
+00:06:17,471 --> 00:06:19,635
+we can calculate its magic sum,
+
+119
+00:06:19,755 --> 00:06:24,236
+then is it true for all n that we can just arrange the numbers from 1 to n^2
+
+120
+00:06:24,356 --> 00:06:28,713
+and put them into an n by n grid
+
+121
+00:06:28,833 --> 00:06:30,151
+to form a magic square?
+
+122
+00:06:31,692 --> 00:06:34,053
+Let's use a simple example
+
+123
+00:06:34,173 --> 00:06:36,575
+of when n equals 2.
+
+124
+00:06:36,695 --> 00:06:39,821
+Does there exist a magic square of size 2?
+
+125
+00:06:39,941 --> 00:06:46,705
+How do we put the numbers 1, 2, 3, 4 into a 2 by 2 grid
+
+126
+00:06:46,825 --> 00:06:52,551
+so that the sum of every row and column are identical?
+
+127
+00:06:52,671 --> 00:06:54,045
+We first assume there does indeed 
+
+128
+00:06:54,165 --> 00:06:56,368
+exist a magic square of size 2.
+
+129
+00:06:56,488 --> 00:06:58,940
+Then the following must be true.
+
+130
+00:06:59,060 --> 00:07:03,530
+Let us use the letters a, b, c, d to denote the entries in the grid,
+
+131
+00:07:03,650 --> 00:07:05,721
+If there exists a 2 by 2 magic square,
+
+132
+00:07:05,841 --> 00:07:08,306
+what is its magic sum?
+
+133
+00:07:08,426 --> 00:07:09,627
+Substitution into our formula
+
+134
+00:07:09,747 --> 00:07:14,742
+reveals that the magic sum is should be equal to 2(2*2+1)/2,
+
+135
+00:07:14,862 --> 00:07:16,725
+which is exactly equal to 5.
+
+136
+00:07:16,845 --> 00:07:17,920
+This means that
+
+137
+00:07:18,040 --> 00:07:21,524
+in this configuration of a, b, c & d,
+
+138
+00:07:21,644 --> 00:07:25,277
+horizontally a+b should be equal to 5,
+
+139
+00:07:25,397 --> 00:07:28,740
+the second row c+d should be equal to 5,
+
+140
+00:07:28,860 --> 00:07:34,449
+and diagonally, both a+d and c+b should be equal to 5.
+
+141
+00:07:34,569 --> 00:07:36,781
+But now we spot a problem.
+
+142
+00:07:36,901 --> 00:07:40,384
+If we take the difference between c+b and c+d
+143
+00:07:40,504 --> 00:07:42,095
+we obtain this result:
+
+144
+00:07:42,215 --> 00:07:44,631
+b-d=0
+
+145
+00:07:44,751 --> 00:07:49,393
+However, we know that the four numbers we picked, 
+
+146
+00:07:49,513 --> 00:07:51,224
+are each distinct and cannot be equal to any other.
+
+147
+00:07:51,344 --> 00:07:53,044
+This is from the definition of a magic square.
+
+148
+00:07:53,164 --> 00:07:55,533
+So we have arrived at a contradiction and our assumption must be false.
+
+149
+00:07:55,653 --> 00:07:59,619
+So a magic square of size 2 does not exist.
+
+150
+00:07:59,739 --> 00:08:03,504
+But just now we have seen examples of magic squares of size 3, 4, 5
+
+151
+00:08:03,624 --> 00:08:06,684
+and even of size 10.
+
+152
+00:08:06,804 --> 00:08:08,507
+So what is the real answer to the question of existence?
+
+153
+00:08:08,627 --> 00:08:11,491
+In fact, roughly thirty years ago,
+
+154
+00:08:11,611 --> 00:08:13,170
+a German mathematician
+
+155
+00:08:13,290 --> 00:08:14,268
+proved that 
+
+156
+00:08:14,388 --> 00:08:17,812
+it is always possible to construct a magic square 
+
+157
+00:08:17,932 --> 00:08:21,565
+of size N, for every N larger or equal to 3.
+
+158
+00:08:21,685 --> 00:08:25,688
+Since magic squares exist for N larger than 2,
+
+159
+00:08:25,808 --> 00:08:27,388
+We quite naturally wonder,
+
+160
+00:08:27,508 --> 00:08:31,694
+how do we construct a magic square?
+
+161
+00:08:31,814 --> 00:08:36,071
+Actually Hui Yang introduced, in his book, a method
+
+162
+00:08:36,191 --> 00:08:38,791
+of constructing a magic square of size 3.
+
+163
+00:08:38,911 --> 00:08:44,751
+He first arranged the numbers 1, 2, 3; 4, 5, 6; 7, 8, 9 in diagonals.
+
+164
+00:08:44,871 --> 00:08:48,449
+then exchanged the numbers on opposing corners,
+
+165
+00:08:48,569 --> 00:08:51,728
+finally forming a 3 by 3 grid thus.
+
+166
+00:08:51,848 --> 00:08:55,127
+The result is a 3 by 3 magic square.
+
+167
+00:08:55,247 --> 00:09:00,640
+but this method is only applicable to 3 by 3 magic squares.
+
+168
+00:09:00,760 --> 00:09:03,315
+It was only in the seventeenth century
+
+169
+00:09:03,435 --> 00:09:08,204
+did a French mathematician discover
+
+170
+00:09:08,324 --> 00:09:12,119
+how to construct larger magic squares.
+
+171
+00:09:12,239 --> 00:09:15,018
+Of course, his technique had its own limitations.
+
+172
+00:09:15,138 --> 00:09:17,940
+He could only create odd-sized magic squares.
+
+173
+00:09:18,060 --> 00:09:20,327
+What, then, was his approach?
+
+174
+00:09:20,447 --> 00:09:21,572
+In fact he first imagined
+
+175
+00:09:21,692 --> 00:09:24,072
+an N by N grid like this,
+
+176
+00:09:24,192 --> 00:09:26,357
+to not be flat.
+
+177
+00:09:26,477 --> 00:09:29,783
+He filled the grid up in a fashion akin to going around the globe.
+
+178
+00:09:29,903 --> 00:09:32,542
+At the same time, when he places the numbers,
+
+179
+00:09:32,662 --> 00:09:37,924
+he always goes from bottom left to top right.
+
+180
+00:09:38,044 --> 00:09:42,022
+Next, let us demonstrate this method with a 3 by 3 square.
+
+181
+00:09:42,142 --> 00:09:44,812
+Next we'll use this device to introduce to everyone
+
+182
+00:09:44,932 --> 00:09:47,410
+the construction of a 3 by 3 magic square.
+
+183
+00:09:47,552 --> 00:09:49,410
+The first step in the method
+
+184
+00:09:49,530 --> 00:09:53,480
+is that we put a 1 in the middle of the first row.
+
+185
+00:09:53,600 --> 00:09:56,126
+Th process goes like this. If we pretend 
+
+186
+00:09:56,246 --> 00:10:00,827
+we're moving a piece from the bottom left to the top right,
+
+187
+00:10:00,947 --> 00:10:01,819
+But during this process,
+
+188
+00:10:01,939 --> 00:10:04,362
+it might be moved out of bounds.
+
+189
+00:10:04,482 --> 00:10:07,060
+We can make further progress by pretending
+
+190
+00:10:07,180 --> 00:10:12,099
+the edges are conjoined; going off one edge means coming on to the opposite.
+
+191
+00:10:12,219 --> 00:10:16,396
+Simply moving the piece to its second position
+
+192
+00:10:16,516 --> 00:10:17,426
+will cause it to fall off the edge of the board.
+
+193
+00:10:17,546 --> 00:10:19,276
+However, since going off one edge means coming onto the opposite one,
+
+194
+00:10:19,396 --> 00:10:21,607
+it should actually arrive at this position
+
+195
+00:10:21,727 --> 00:10:24,487
+So 2 should be placed here.
+
+196
+00:10:24,607 --> 00:10:27,340
+3 will be in the next position.
+
+197
+00:10:27,460 --> 00:10:30,429
+If the opposite edges are also conjoined in this direction,
+
+198
+00:10:30,549 --> 00:10:33,334
+then 3 should be placed here.
+
+199
+00:10:33,454 --> 00:10:35,767
+According to the rule of moving from the bottom left to top right,
+
+200
+00:10:35,887 --> 00:10:39,091
+We find that moving to the next position from 3 will cause
+
+201
+00:10:39,211 --> 00:10:40,914
+us to move to where 1 is.
+
+202
+00:10:41,034 --> 00:10:43,077
+Now this is a special case:
+
+203
+00:10:43,197 --> 00:10:46,839
+if the next position is already occupied or ,
+
+204
+00:10:46,959 --> 00:10:53,220
+we place the piece immediately below the previous square.
+
+205
+00:10:53,340 --> 00:10:55,514
+Therefore, 4 should be place here.
+
+206
+00:10:55,634 --> 00:11:01,399
+After this, we try to find the positions for 5 and 6 following the rule.
+
+207
+00:11:01,519 --> 00:11:02,976
+We don't have to do anything special until 7,
+
+208
+00:11:03,096 --> 00:11:06,828
+when the next position will go off the board.
+
+209
+00:11:06,948 --> 00:11:08,091
+By observing that 7
+
+210
+00:11:08,211 --> 00:11:10,407
+be placed at this position in the corner,
+
+211
+00:11:10,527 --> 00:11:12,865
+which is already occupied,
+
+212
+00:11:12,985 --> 00:11:17,490
+so we must move to the square immediately below the previous square.
+
+213
+00:11:17,610 --> 00:11:23,208
+Next, it's time to find the position of 8 from 7;
+
+214
+00:11:23,328 --> 00:11:26,191
+we see that it should be here due to the conjoined edges.
+
+215
+00:11:26,311 --> 00:11:30,468
+Finally, our last square is reserved for 9.
+
+216
+00:11:30,588 --> 00:11:32,082
+Thus if we now verify the sums:
+
+217
+00:11:32,202 --> 00:11:35,360
+8+1+6 8+5+2...
+
+218
+00:11:35,480 --> 00:11:38,127
+The sum of any row, column or diagonal
+
+219
+00:11:38,247 --> 00:11:42,106
+comes exactly to the magic sum of 15.
+
+220
+00:11:42,226 --> 00:11:45,665
+Since we know how to construct odd-sized magic squares,
+
+221
+00:11:45,785 --> 00:11:47,349
+then everyone must be wondering
+
+222
+00:11:47,469 --> 00:11:49,477
+whether, for a magic square of arbitrary size,
+
+223
+00:11:49,597 --> 00:11:51,986
+there is a corresponding method?
+
+224
+00:11:52,106 --> 00:11:55,982
+In fact, we can divide magic squares into three classes:
+
+225
+00:11:56,102 --> 00:11:58,043
+the first class comprises odd-sized magic squares,
+
+226
+00:11:58,163 --> 00:12:00,416
+the second magic squares of size 4m
+
+227
+00:12:00,536 --> 00:12:03,035
+and the third magic squares of size 4m+2.
+
+228
+00:12:03,155 --> 00:12:06,745
+Each class has its own method (of constructing magic squares).
+
+229
+00:12:06,865 --> 00:12:08,549
+So by now,
+
+230
+00:12:08,669 --> 00:12:10,385
+if we are given any n,
+
+231
+00:12:10,505 --> 00:12:16,343
+we can construct a corresponding n by n magic square.
+
+232
+00:12:16,898 --> 00:12:18,984
+But if we go back to the earlier 
+
+233
+00:12:19,104 --> 00:12:22,397
+3 by 3 magic square constructed using Hui Yang's method,
+
+234
+00:12:22,517 --> 00:12:26,845
+when we compare it with the magic square we just constructed,
+
+235
+00:12:26,965 --> 00:12:29,435
+are the two the same?
+
+236
+00:12:29,555 --> 00:12:32,789
+At first sight, these two arrangements are different.
+
+237
+00:12:32,909 --> 00:12:34,426
+However, a careful inspection reveals that
+
+238
+00:12:34,546 --> 00:12:37,656
+if we rotate this magic square
+
+239
+00:12:37,776 --> 00:12:40,839
+we obtain two identical magic squares.
+
+240
+00:12:40,959 --> 00:12:42,594
+That was a 3 by 3 magic square.
+
+241
+00:12:42,714 --> 00:12:45,798
+Let's now move on to 4 by 4 magic squares.
+
+242
+00:12:45,918 --> 00:12:50,979
+Here is the magic square from the engraving.
+
+243
+00:12:51,099 --> 00:12:56,730
+This magic square we're seeing was carved next to a temple.
+
+244
+00:12:56,850 --> 00:12:58,952
+Although they are both 4 by 4 magic squares,
+
+245
+00:12:59,072 --> 00:13:03,000
+no matter how you rotate or flip, their arrangements
+
+246
+00:13:03,120 --> 00:13:05,555
+are not the same.
+
+247
+00:13:05,675 --> 00:13:07,776
+This leads to the question,
+
+248
+00:13:07,896 --> 00:13:09,567
+if we take a magic square of size n (n>2),
+
+249
+00:13:09,687 --> 00:13:14,015
+how many distinct magic squares can we generate?
+
+250
+00:13:14,135 --> 00:13:18,076
+In fact, the counting of magic squares has long perplexed people.
+
+251
+00:13:18,196 --> 00:13:21,353
+We know that no magic square of size 2 exists.
+
+252
+00:13:21,473 --> 00:13:26,503
+If discount flips and rotations, then for a 3 by 3 magic square,
+
+253
+00:13:26,623 --> 00:13:28,548
+there is only one possibility.
+
+254
+00:13:28,668 --> 00:13:30,565
+Once we are up to 4 by 4 ,
+
+255
+00:13:30,685 --> 00:13:33,842
+there are 880 distinct arrangements.
+
+256
+00:13:33,962 --> 00:13:36,745
+If we allow for flips and rotations,
+
+257
+00:13:36,865 --> 00:13:39,512
+there are 7040 possibilities.
+
+258
+00:13:39,632 --> 00:13:41,024
+For 5 by 5 magic squares, then,
+
+259
+00:13:41,144 --> 00:13:42,337
+we can all imagine
+
+260
+00:13:42,457 --> 00:13:44,366
+how many 5 by 5 magic square should be.
+
+261
+00:13:44,486 --> 00:13:48,896
+There are already over 270 million 5 by 5 magic squares.
+
+262
+00:13:49,016 --> 00:13:50,817
+Exactly how many 6 by 6 magic squares should be,
+
+263
+00:13:50,937 --> 00:13:52,723
+is beyond our ability to calculate.
+
+264
+00:13:52,843 --> 00:13:56,437
+Even computers are incapable of enumerating all the possibilities.
+
+265
+00:13:56,557 --> 00:13:59,569
+Mathematicians,
+
+266
+00:13:59,689 --> 00:14:03,030
+determined that it must be within a certain range,
+
+267
+00:14:03,150 --> 00:14:08,286
+roughly 1.77x10^19.
+
+268
+00:14:08,406 --> 00:14:11,093
+What about magic squares of size 7?
+
+269
+00:14:11,213 --> 00:14:13,597
+No one really knows
+270
+00:14:13,717 --> 00:14:15,916
+Even the range in which it lies,
+
+271
+00:14:16,036 --> 00:14:17,693
+we do not know.
+
+272
+00:14:17,813 --> 00:14:22,424
+Thus we can see how difficult counting is.
+
+273
+00:14:22,544 --> 00:14:26,332
+So is this the greatest extent of research into magic squares?
+
+274
+00:14:26,452 --> 00:14:30,341
+Actually we have only come across ordinary magic squares so far.
+
+275
+00:14:30,461 --> 00:14:32,999
+There are many other forms.
+
+276
+00:14:33,119 --> 00:14:35,804
+We can consider an arbitrary number sequences;
+
+277
+00:14:35,924 --> 00:14:39,948
+neither do we need limit all the numbers to a consecutive sequence,
+
+278
+00:14:40,068 --> 00:14:43,118
+nor do we have to use ordinary numbers.
+
+279
+00:14:43,238 --> 00:14:47,459
+We can even put various prime numbers in the grid
+
+280
+00:14:47,579 --> 00:14:49,845
+to construct a magic square.
+
+281
+00:14:49,965 --> 00:14:51,258
+Some people have even said that
+
+282
+00:14:51,378 --> 00:14:53,268
+OK, the sum for each row and each column
+
+283
+00:14:53,388 --> 00:14:54,351
+is identical.
+
+284
+00:14:54,471 --> 00:14:59,906
+In fact there are a number of people trying to form magic squares,
+
+285
+00:15:00,026 --> 00:15:01,314
+where the product of each row and column is identical.
+
+286
+00:15:01,434 --> 00:15:04,565
+These also make for a special form of magic squares.
+
+287
+00:15:05,267 --> 00:15:07,577
+Magic squares are so great,
+
+288
+00:15:07,697 --> 00:15:09,933
+they have attracted the fascination of the world at large.
+
+289
+00:15:10,053 --> 00:15:11,701
+In the year 1977,
+
+290
+00:15:11,821 --> 00:15:14,368
+magic squares, as a symbol of the intelligence of mankind,
+
+291
+00:15:14,488 --> 00:15:17,222
+were transported into the space.
+
+292
+00:15:17,342 --> 00:15:21,715
+At the same time, I found that elegant constructions like magic squares,
+
+293
+00:15:21,835 --> 00:15:25,916
+in fact also offer a special way of expressing yourself.
+
+294
+00:15:26,036 --> 00:15:29,122
+In fact, during the 2008,
+
+295
+00:15:29,242 --> 00:15:31,885
+A headline attracted my attention:
+
+296
+00:15:32,005 --> 00:15:38,116
+a 78-year-old farmer designed a very elegent magic square.
+
+297
+00:15:38,236 --> 00:15:40,410
+It is a cube, 
+
+298
+00:15:40,530 --> 00:15:42,446
+where its every diagonal
+
+299
+00:15:42,566 --> 00:15:49,261
+and even its every row and column each add up to equal 2008.
+
+300
+00:15:49,381 --> 00:15:51,363
+"Unfurling" this cube onto a plane
+
+301
+00:15:51,483 --> 00:15:53,086
+produces a heart-like shape.
+
+302
+00:15:53,206 --> 00:15:55,642
+Moreover, at each corner, taking the sum of 5 numbers in a cross
+
+303
+00:15:55,762 --> 00:15:59,265
+and subtracting the number on the opposite corner (on the same face)
+
+304
+00:15:59,385 --> 00:16:01,915
+is exactly 2008.
+
+305
+00:16:02,035 --> 00:16:05,997
+So Mr Zhongxiang Bao spent three entire years
+
+306
+00:16:06,117 --> 00:16:08,937
+designing this perfect magic square
+
+307
+00:16:09,057 --> 00:16:11,061
+to honour the Olympics.
+
+308
+00:16:11,181 --> 00:16:16,337
+The development of magic squares allow you to let loose your imagination
+
+309
+00:16:16,457 --> 00:16:19,637
+The study of magic squares is both rich and profound.
+
+310
+00:16:19,757 --> 00:16:24,573
+In combinatorics there are many similar sophisticated structures.
+
+311
+00:16:24,693 --> 00:16:29,002
+Just now we covered some of the development of combinatorics 
+
+312
+00:16:29,122 --> 00:16:32,283
+in China (or even the East).
+
+313
+00:16:32,403 --> 00:16:33,709
+We must be eager to learn more
+
+314
+00:16:33,829 --> 00:16:34,884
+regarding the West.
+
+315
+00:16:35,004 --> 00:16:36,521
+How did combinatorics begin and develop
+
+316
+00:16:36,641 --> 00:16:41,291
+in the West?
+
+317
+00:16:41,411 --> 00:16:43,942
+So in the next lesson, we shall begin a deep discussion about the development of combinatorics in the West.

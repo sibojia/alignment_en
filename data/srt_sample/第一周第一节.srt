@@ -1,0 +1,424 @@
+1
+00:00:12,610 --> 00:00:17,984
+Welcome everyone, I am Prof. Yuchun Ma from the Department of Computing Science at Tsinghua University.
+
+2
+00:00:18,104 --> 00:00:20,428
+I am very glad to see everyone here£¬
+
+3
+00:00:20,569 --> 00:00:24,721
+so let's enjoy the beauty of combinatorics together.
+
+4
+00:00:24,841 --> 00:00:27,579
+Here at the Department of Computer Science at Tsinghua University,
+
+5
+00:00:27,699 --> 00:00:30,478
+Combinatorics is a fundamental course set at the graduate level.
+
+6
+00:00:30,598 --> 00:00:32,069
+But then we might ask,
+
+7
+00:00:32,189 --> 00:00:34,783
+since we have taken so many maths courses throughout our education,
+
+8
+00:00:34,903 --> 00:00:38,904
+why do we have yet another maths course at the graduate level?
+
+9
+00:00:39,024 --> 00:00:44,940
+We might not have heard of combinatorics before,
+
+10
+00:00:45,060 --> 00:00:47,678
+so if we want to find out what it is£¬
+
+11
+00:00:47,798 --> 00:00:49,960
+let's go online to have a look.
+
+12
+00:01:02,269 --> 00:01:06,876
+We can find the entry for combinatorics on Wikipedia.
+
+13
+00:01:06,996 --> 00:01:09,580
+The definition on Wikipedia is as follows:
+
+14
+00:01:09,700 --> 00:01:13,302
+"Combinatorics is a branch of mathematics..."
+
+15
+00:01:13,422 --> 00:01:16,484
+Right, so it's a branch of maths that deals with 
+
+16
+00:01:16,604 --> 00:01:20,320
+problems of ordering and combining in discrete maths,
+
+17
+00:01:20,440 --> 00:01:23,409
+in particular methods of counting.
+
+18
+00:01:23,529 --> 00:01:27,341
+In fact the main application of combinatorics is for counting.
+
+19
+00:01:27,461 --> 00:01:28,371
+So what will we study?
+
+20
+00:01:28,491 --> 00:01:32,372
+Ordering(permutations) and combining (combination) problems from discrete maths.
+
+21
+00:01:32,492 --> 00:01:33,892
+So we might then wonder
+
+22
+00:01:34,012 --> 00:01:36,514
+if we've already studied undergraduate discrete maths,
+
+23
+00:01:36,634 --> 00:01:41,055
+would we have already covered everything to do with combinatorics£¿
+
+24
+00:01:41,175 --> 00:01:44,297
+We can have a look at a popular textbook.
+
+25
+00:01:46,915 --> 00:01:49,547
+Take this popular textbook on discrete maths.
+
+26
+00:01:49,667 --> 00:01:50,695
+Let's take a look
+
+27
+00:01:50,815 --> 00:01:52,658
+at what it contains.
+
+28
+00:01:52,778 --> 00:01:54,110
+We flip over to the contents page,
+
+29
+00:01:54,230 --> 00:01:58,744
+and discover that there are ten whole chapters.
+
+30
+00:01:58,864 --> 00:02:00,665
+Only in chapter 8
+
+31
+00:02:00,785 --> 00:02:05,321
+do we find some basics of combinatorial analysis,
+
+32
+00:02:05,441 --> 00:02:08,062
+in which there are a few simple counting algorithms,
+
+33
+00:02:08,182 --> 00:02:11,593
+and introductory concepts regarding permutations and combinations.
+
+34
+00:02:11,713 --> 00:02:13,628
+So we see that in discrete maths,
+
+35
+00:02:13,748 --> 00:02:18,518
+We only come across some very rudimentary combinatorics.
+
+36
+00:02:18,638 --> 00:02:20,038
+In this class however,
+
+37
+00:02:20,158 --> 00:02:24,998
+We shall really delve into combinatorics and related fields£¬
+
+38
+00:02:25,118 --> 00:02:28,836
+not least familiar concepts such as permutations and combinations.
+
+39
+00:02:28,956 --> 00:02:31,599
+We shall pay particular attention to a recursive counting algorithm
+
+40
+00:02:31,719 --> 00:02:35,928
+with wide-ranging applications in computing.
+
+41
+00:02:36,048 --> 00:02:39,927
+We'll also cover the inclusion-exclusion and the pigeonhole principles.
+
+42
+00:02:40,047 --> 00:02:42,690
+Finally, we shall investigate the very interesting topic of
+
+43
+00:02:42,810 --> 00:02:45,100
+counting the colourings of polygons,
+
+44
+00:02:45,220 --> 00:02:48,413
+using Burnside's lemma and the Polya enumeration theorem.
+
+45
+00:02:48,533 --> 00:02:51,385
+We can therefore see that combinatorics will involve
+
+46
+00:02:51,505 --> 00:02:54,994
+in-depth study of counting algorithms of discrete objects.
+
+47
+00:02:57,122 --> 00:02:57,796
+Next,
+
+48
+00:02:57,916 --> 00:03:02,032
+we shall take a brief overview of the history of mathematics.
+
+49
+00:03:02,152 --> 00:03:03,878
+Let us start from this graph:
+
+50
+00:03:03,998 --> 00:03:05,025
+what does the first illustration depict?
+
+51
+00:03:05,145 --> 00:03:07,132
+This is in fact
+
+52
+00:03:07,252 --> 00:03:11,493
+a calculating tool used by the people of the ancient Incan Empire.
+
+53
+00:03:11,613 --> 00:03:15,843
+We can say that mathematics has its roots in counting.
+
+54
+00:03:15,963 --> 00:03:18,768
+Then, after grasping the fundamental concept of counting, 
+
+55
+00:03:18,888 --> 00:03:21,088
+we began to develop arithmetic,
+
+56
+00:03:21,208 --> 00:03:23,601
+elementary algebra, geometry, etc.,
+
+57
+00:03:23,721 --> 00:03:26,432
+until the appearance of variables in the 17th century.
+
+58
+00:03:26,552 --> 00:03:29,171
+From then on, mathematics moved into virgin territory,
+
+59
+00:03:29,291 --> 00:03:31,560
+and thus began the research of more advanced mathematical topics,
+
+60
+00:03:31,680 --> 00:03:32,800
+for example linear algebra, probability, etc.
+
+61
+00:03:32,920 --> 00:03:35,258
+The collective term given to these topics is mathematical analysis,
+
+62
+00:03:35,378 --> 00:03:36,754
+whose fertile grounds has produced
+
+63
+00:03:36,874 --> 00:03:40,262
+such mathematical greats as Leibniz, Euler, Gauss, etc.
+
+64
+00:03:40,382 --> 00:03:44,969
+Later, we discovered that mathematical analysis alone is insufficient.
+
+65
+00:03:45,089 --> 00:03:46,908
+So upon the foundations of mathematical analysis,
+
+66
+00:03:47,028 --> 00:03:50,841
+we developed topology, abstract algebra, group theory,
+
+67
+00:03:50,961 --> 00:03:52,641
+set theory, number theory etc.
+
+68
+00:03:52,761 --> 00:03:55,285
+These form the basis of modern mathematics.
+
+69
+00:03:55,405 --> 00:03:56,970
+With the development of computers,
+
+70
+00:03:57,090 --> 00:04:00,436
+people gradually found that combinatorics has become
+
+71
+00:04:00,556 --> 00:04:03,335
+a very important branch of modern mathematics,
+
+72
+00:04:03,455 --> 00:04:08,600
+for it directly impacts upon the theoretic development of informatics.
+
+73
+00:04:08,720 --> 00:04:10,019
+From our review of the development of mathematics,
+
+74
+00:04:10,139 --> 00:04:12,852
+We discover that the general development of mathematics
+
+75
+00:04:12,972 --> 00:04:16,080
+mirrors our own mathematical education.
+
+76
+00:04:16,200 --> 00:04:20,901
+There are many parallels to our personal experiences with mathematics.
+
+77
+00:04:21,021 --> 00:04:22,187
+When we are very young,
+
+78
+00:04:22,307 --> 00:04:24,947
+we begin counting from 1, 2, 3...
+
+79
+00:04:25,067 --> 00:04:26,258
+During our secondary education,
+
+80
+00:04:26,378 --> 00:04:29,882
+We'd already learned arithmetic and begin studying algebra and geometry.
+
+81
+00:04:30,002 --> 00:04:31,140
+Upon entering university,
+
+82
+00:04:31,260 --> 00:04:33,293
+we first encounter formal mathematical analysis:
+
+83
+00:04:33,413 --> 00:04:35,331
+we study advanced mathematics,
+
+84
+00:04:35,451 --> 00:04:37,014
+investigate linear algebra, etc.
+
+85
+00:04:37,134 --> 00:04:39,297
+But for modern mathematics,
+
+86
+00:04:39,417 --> 00:04:42,799
+we require more specialised tool and techniques.
+
+87
+00:04:42,919 --> 00:04:45,854
+For example we learn about graph theory and topology.
+
+88
+00:04:45,974 --> 00:04:48,289
+Combinatorics is specially relevant for computing
+
+89
+00:04:48,409 --> 00:04:51,567
+and forms part of the theoretical backbone for computer science.
+
+90
+00:04:51,687 --> 00:04:55,238
+Only after detailed study (perhaps at the graduate level),
+
+91
+00:04:55,358 --> 00:04:58,222
+can we hope to gain a more thorough understanding of algorithms.
+
+92
+00:04:58,342 --> 00:05:01,744
+To paraphrase the celebrated combinatorist Brualdi,
+
+93
+00:05:01,864 --> 00:05:04,351
+what is combinatorics really concerned with?
+
+94
+00:05:04,471 --> 00:05:08,239
+It investigates things that obey, to some degree, a rule or pattern.
+
+95
+00:05:08,359 --> 00:05:09,611
+Then we ask ourselves,
+
+96
+00:05:09,731 --> 00:05:10,775
+under such a rule,
+
+97
+00:05:10,895 --> 00:05:12,832
+do they exist,
+
+98
+00:05:12,952 --> 00:05:14,616
+how many distinct forms can they take,
+
+99
+00:05:14,736 --> 00:05:16,966
+can the algorithm be ¡®improved¡¯ in some way?
+
+100
+00:05:17,086 --> 00:05:21,227
+In combinatorics, then, we aim to answer three major questions.
+
+101
+00:05:21,347 --> 00:05:22,984
+First, the question of existence.
+
+102
+00:05:23,104 --> 00:05:24,638
+Second, the question of counting.
+
+103
+00:05:24,758 --> 00:05:26,870
+Third, the question of optimisation.
+
+104
+00:05:26,990 --> 00:05:30,579
+Since we now understand exactly what combinatorics is,
+
+105
+00:05:30,699 --> 00:05:33,971
+we shall, in the next lesson, explore in depth
+
+106
+00:05:34,091 --> 00:05:36,487
+the origins of combinatorics.
+
