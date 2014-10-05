@@ -1,0 +1,38 @@
+I think we've all thought about it long and hard.
+How did you arrive at your answer?
+Suppose we want to have all the nations of the world
+participating in the World Cup elimination stage.
+So if there are 224 teams proceeding to the elimination stage,
+how many matches will be played?
+So how did everyone
+solve the quiz problem?
+Perhaps you drew a very complicated decision tree,
+and counted up all the nodes to find out the solution.
+If there are now 224 nations in the knockout matches,
+will you still count like this?
+How large must your decision tree be?
+Is there a better way?
+Let's try to get to the solution quickly.
+If we reconsider the problem,
+it's actually saying that in every match,
+there has to be a winner and a loser,
+with the loser being eliminated. How many ultimately remain?
+Only the champion is left standing.
+Every match corresponds to an eliminated team.
+So the number of teams eliminated
+is equal to the number of matches!
+If out of 16 teams, we have to eliminate 15,
+then there has to be 15 matches.
+Now with 224 nations participating,
+we need to eliminate 223 teams in total.
+Then naturally 223 matches have to be played.
+This problem no longer requires us to 
+draw up such a complicated decision tree.
+We use a one-to-one correspondence
+to show that if there are n teams participating
+then we need exactly n-1 elimination matches.
+This one-to-one correspondence (injectivity)
+demonstrates that brute-force enumeration is not always necessary.
+We can use a degree of abstraction
+to generate an ingenious idea,
+which might make the problem wonderfully simple.

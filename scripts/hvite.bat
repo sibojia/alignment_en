@@ -1,0 +1,1 @@
+HVite.exe -A -D -T 1 -l '*' -o S -C models\config.fromwav -H models\wsj_mono\macros -H models\wsj_mono\hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -q tmd -a -I ..\data\w_indict.txt -S train.scp models\monophone_sp.dict models\monophones_sp

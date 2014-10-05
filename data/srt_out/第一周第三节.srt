@@ -1,0 +1,440 @@
+1
+00:00:00,0 --> 00:00:14,68
+Let's take a look at this painting by Van Gogh.
+
+2
+00:00:15,47 --> 00:00:17,25
+We can see some roses in it.
+
+3
+00:00:20,19 --> 00:00:23,95
+However, after an X-ray scan, we have discovered 
+
+4
+00:00:23,95 --> 00:00:26,36
+that behind this colourful painting,
+
+5
+00:00:27,01 --> 00:00:29,72
+there in fact is a portrait of a wrestler.
+
+6
+00:00:31,82 --> 00:00:34,08
+Such paintings-within-paintings
+
+7
+00:00:34,63 --> 00:00:37,01
+are not limited to the field of art.
+
+8
+00:00:38,1 --> 00:00:41,19
+Similar examples are to be found in mathematics.
+
+9
+00:00:42,0 --> 00:00:43,77
+We all know Archimedes, right?
+
+10
+00:00:44,35 --> 00:00:47,97
+He has made significant contributions to 
+
+11
+00:00:47,97 --> 00:00:52,86
+various branches of mathematics, physics and engineering, etc.
+
+12
+00:00:53,41 --> 00:00:56,01
+So what contributions has he to combinatorics?
+
+13
+00:00:56,67 --> 00:01:00,19
+Today, let's take a look at a photo of Archimedes' manuscript.
+
+14
+00:01:05,78 --> 00:01:07,87
+Here is a photo of an ancient text.
+
+15
+00:01:09,14 --> 00:01:11,06
+A glance does not seem reveal
+
+16
+00:01:11,06 --> 00:01:12,71
+any links with mathematics - 
+
+17
+00:01:13,65 --> 00:01:14,99
+there are no symbols,
+
+18
+00:01:15,58 --> 00:01:16,31
+no graphs...
+
+19
+00:01:17,74 --> 00:01:21,89
+This is in fact a religious text.
+
+20
+00:01:21,89 --> 00:01:23,28
+The history of it goes like this:
+
+21
+00:01:24,55 --> 00:01:26,28
+Around the 10th century A.D.
+
+22
+00:01:27,09 --> 00:01:29,36
+Some scribes copied Archimedes' work,
+
+23
+00:01:29,91 --> 00:01:31,99
+word for word, onto parchment.
+
+24
+00:01:33,11 --> 00:01:35,11
+Over the course of history,
+
+25
+00:01:35,11 --> 00:01:36,49
+and the passing of time
+
+26
+00:01:37,14 --> 00:01:39,57
+these parchment scrolls were lost
+
+27
+00:01:40,31 --> 00:01:43,34
+and found there way into various monasteries,
+
+28
+00:01:44,25 --> 00:01:47,65
+where the monks, upon receipt of the scrolls,
+
+29
+00:01:47,65 --> 00:01:49,25
+simply rinsed them all.
+
+30
+00:01:50,69 --> 00:01:53,82
+After the original text had been washed away,
+
+31
+00:01:53,82 --> 00:01:56,65
+they reused the parchment to copy the Scriptures.
+
+32
+00:01:57,48 --> 00:01:59,92
+After the passing of 1000 years,
+
+33
+00:01:59,92 --> 00:02:01,86
+through times of war and peace,
+
+34
+00:02:02,5 --> 00:02:05,2
+only fragments of these scrolls survive today.
+
+35
+00:02:05,98 --> 00:02:07,33
+It was only recently
+
+36
+00:02:07,33 --> 00:02:09,09
+that people began to suspect
+
+37
+00:02:09,09 --> 00:02:11,46
+that there may be more to be discovered.
+
+38
+00:02:12,26 --> 00:02:14,84
+Sure enough, after an X-ray,
+
+39
+00:02:14,84 --> 00:02:17,16
+these shapes began to appear.
+
+40
+00:02:17,16 --> 00:02:21,57
+It would seem that underneath these scriptures there are complex drawings
+
+41
+00:02:22,56 --> 00:02:27,96
+Now we also note that this ancient Greek is written horizontally.
+
+42
+00:02:29,36 --> 00:02:31,54
+People gradually realised that
+
+43
+00:02:31,54 --> 00:02:35,08
+this mathematical work seems to be by Archimedes' hand.
+
+44
+00:02:38,53 --> 00:02:41,39
+So it's time we examine the details more closely.
+
+45
+00:02:41,39 --> 00:02:42,85
+After X-ray (and some other) scans,
+
+46
+00:02:42,85 --> 00:02:45,34
+we can see that under these scriptures,
+
+47
+00:02:45,34 --> 00:02:47,77
+there is a mathematical paper in Ancient Greek.
+
+48
+00:02:48,61 --> 00:02:50,79
+So what, exactly, does this paper deal with?
+
+49
+00:02:51,44 --> 00:02:55,33
+The answer is in fact Archimedes' Stomachion(14-piece dissection puzzle).
+
+50
+00:02:55,33 --> 00:02:56,77
+When stomachion puzzles are mentioned,
+
+51
+00:02:57,4 --> 00:03:01,02
+Chinese students amongst us may automatically think of tangrams.
+
+52
+00:03:01,64 --> 00:03:06,6
+Yes, there is a degree of similarity between the stomachion and tangrams,
+
+53
+00:03:06,6 --> 00:03:08,32
+But Archimedes didn't study
+
+54
+00:03:08,32 --> 00:03:11,41
+how many elephant shapes you can make from a stomachion,
+
+55
+00:03:11,41 --> 00:03:13,41
+or even how many soldier shapes!
+
+56
+00:03:14,09 --> 00:03:18,23
+Instead, he investigated the very interesting problem of:
+
+57
+00:03:18,23 --> 00:03:22,4
+if this stomachion can be pieced together to create a square,
+
+58
+00:03:22,4 --> 00:03:24,6
+how many ways, precisely,
+
+59
+00:03:24,6 --> 00:03:25,92
+do we have of
+
+60
+00:03:25,92 --> 00:03:29,78
+reassembling it and putting it back in this square box?
+
+61
+00:03:30,32 --> 00:03:35,29
+After mathematicians learned of the problem from the manuscript in 2003,
+
+62
+00:03:35,87 --> 00:03:39,47
+it garnered significant attention from the community.
+
+63
+00:03:42,06 --> 00:03:46,89
+Of course, many mathematicians felt that this problem was very complex,
+
+64
+00:03:46,89 --> 00:03:49,17
+and almost impossible to solve.
+
+65
+00:03:49,17 --> 00:03:51,11
+So a mathematician had the idea 
+
+66
+00:03:51,11 --> 00:03:53,77
+to offer a prize for its solution.
+
+67
+00:03:53,77 --> 00:03:55,08
+He took a sum of money,
+
+68
+00:03:55,64 --> 00:03:57,29
+not too much of course,
+
+69
+00:03:57,29 --> 00:03:59,09
+only 100 dollars or so£¬
+
+70
+00:03:59,95 --> 00:04:02,48
+and created a 100-dollar prize fund,
+
+71
+00:04:02,48 --> 00:04:04,32
+for the first person to come up with 
+
+72
+00:04:04,32 --> 00:04:06,27
+an exact solution.
+
+73
+00:04:06,27 --> 00:04:10,7
+Naturally many people all over the world began investigating this problem,
+
+74
+00:04:10,7 --> 00:04:12,48
+including mathematicians
+
+75
+00:04:12,48 --> 00:04:13,67
+and computer scientists.
+
+76
+00:04:14,36 --> 00:04:16,62
+Let's all guess whether it was
+
+77
+00:04:16,62 --> 00:04:17,85
+the computer scientists
+
+78
+00:04:17,85 --> 00:04:20,12
+or the mathematicians who won this prize?
+
+79
+00:04:21,56 --> 00:04:24,39
+I think most us will guess correctly -
+
+80
+00:04:25,07 --> 00:04:28,19
+indeed it was the computer scientists who
+
+81
+00:04:28,19 --> 00:04:30,36
+devised an algorithm.
+
+82
+00:04:30,36 --> 00:04:32,69
+An enumerative method was used
+
+83
+00:04:32,69 --> 00:04:36,77
+to ultimately generate the correct answer. So for the stomachion,
+
+84
+00:04:36,77 --> 00:04:39,14
+how many distinct combinations are possible?
+
+85
+00:04:40,02 --> 00:04:42,33
+17152
+
+86
+00:04:42,99 --> 00:04:47,44
+Of course, mathematicians were not far behind either.
+
+87
+00:04:47,44 --> 00:04:49,05
+They didn't use computers;
+
+88
+00:04:49,05 --> 00:04:51,95
+Instead, they used exclusively combinatorics
+
+89
+00:04:51,95 --> 00:04:53,73
+to arrive at the same solution.
+
+90
+00:04:54,51 --> 00:04:56,83
+The playful Archimedes began the 
+
+91
+00:04:56,83 --> 00:04:58,43
+chapter on Western combinatorics.
+
+92
+00:04:59,3 --> 00:05:01,2
+As for the word "combinatorics",
+
+93
+00:05:01,81 --> 00:05:03,28
+what are its origins?
+
+94
+00:05:04,09 --> 00:05:09,74
+It can actually be attributed to Leibniz in 1666.
+
+95
+00:05:10,36 --> 00:05:12,43
+When studying probability,
+
+96
+00:05:12,43 --> 00:05:13,79
+He coined the term
+
+97
+00:05:13,79 --> 00:05:14,21
+combinatorics.
+
+98
+00:05:15,24 --> 00:05:16,33
+In terms of English,
+
+99
+00:05:16,33 --> 00:05:17,16
+created the name for
+
+100
+00:05:17,16 --> 00:05:22,94
+Combinatorics. He stated that all deductions and discoveries, 
+
+101
+00:05:22,94 --> 00:05:26,46
+regardless of whether they are described in human language,
+
+102
+00:05:27,05 --> 00:05:32,89
+can all be categorised into some ordered combination 
+
+103
+00:05:32,89 --> 00:05:36,75
+of the elements of numbers, words, sounds and colours,
+
+104
+00:05:37,26 --> 00:05:40,62
+The study of calculating this ordered set
+
+105
+00:05:40,62 --> 00:05:41,53
+is combinatorics.
+
+106
+00:05:42,29 --> 00:05:45,09
+After we have reviewed the history of combinatorics,
+
+107
+00:05:45,09 --> 00:05:48,42
+both its development in the West and its origins in the East.
+
+108
+00:05:48,42 --> 00:05:49,81
+We must be curious:
+
+109
+00:05:49,81 --> 00:05:52,18
+what applications has combinatorics in real life?
+
+110
+00:05:52,87 --> 00:05:56,89
+Next lesson, we shall analyse this more deeply for everyone.
+

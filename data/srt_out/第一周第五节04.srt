@@ -1,0 +1,56 @@
+1
+00:00:00,0 --> 00:00:03,3
+After this period of study,
+
+2
+00:00:03,3 --> 00:00:06,76
+we now understand that much of combinatorics is counting.
+
+3
+00:00:07,83 --> 00:00:08,7
+its goals are
+
+4
+00:00:08,7 --> 00:00:09,21
+twofold.
+
+5
+00:00:09,83 --> 00:00:12,66
+Nothing should be repeated or missed.
+
+6
+00:00:14,31 --> 00:00:18,91
+In fact counting is not as simple as we'd all like to think,
+
+7
+00:00:18,91 --> 00:00:22,58
+because of the sheer size of the dataset we're facing.
+
+8
+00:00:22,58 --> 00:00:26,47
+Moreover, the elements of the dataset have complex relations.
+
+9
+00:00:26,47 --> 00:00:29,57
+So to count well, to study combinatorics well,
+
+10
+00:00:29,57 --> 00:00:31,94
+we require some skill with abstraction.
+
+11
+00:00:32,71 --> 00:00:36,44
+Some of the methods used in combinatorics are not all that deep,
+
+12
+00:00:37,08 --> 00:00:42,46
+but some brilliant ideas involved allow us to logically partition cases. 
+
+13
+00:00:43,44 --> 00:00:46,69
+We need to grasp how to change our perspective.
+
+14
+00:00:46,69 --> 00:00:50,14
+So combinatorics is indeed a very attractive field.
+

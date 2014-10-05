@@ -1,0 +1,106 @@
+Welcome everyone, I am Prof. Yuchun Ma from the Department of Computing Science at Tsinghua University.
+I am very glad to see everyone here£¬
+so let's enjoy the beauty of combinatorics together.
+Here at the Department of Computer Science at Tsinghua University,
+Combinatorics is a fundamental course set at the graduate level.
+But then we might ask,
+since we have taken so many maths courses throughout our education,
+why do we have yet another maths course at the graduate level?
+We might not have heard of combinatorics before,
+so if we want to find out what it is£¬
+let's go online to have a look.
+We can find the entry for combinatorics on Wikipedia.
+The definition on Wikipedia is as follows:
+"Combinatorics is a branch of mathematics..."
+Right, so it's a branch of maths that deals with 
+problems of ordering and combining in discrete maths,
+in particular methods of counting.
+In fact the main application of combinatorics is for counting.
+So what will we study?
+Ordering(permutations) and combining (combination) problems from discrete maths.
+So we might then wonder
+if we've already studied undergraduate discrete maths,
+would we have already covered everything to do with combinatorics£¿
+We can have a look at a popular textbook.
+Take this popular textbook on discrete maths.
+Let's take a look
+at what it contains.
+We flip over to the contents page,
+and discover that there are ten whole chapters.
+Only in chapter 8
+do we find some basics of combinatorial analysis,
+in which there are a few simple counting algorithms,
+and introductory concepts regarding permutations and combinations.
+So we see that in discrete maths,
+We only come across some very rudimentary combinatorics.
+In this class however,
+We shall really delve into combinatorics and related fields£¬
+not least familiar concepts such as permutations and combinations.
+We shall pay particular attention to a recursive counting algorithm
+with wide-ranging applications in computing.
+We'll also cover the inclusion-exclusion and the pigeonhole principles.
+Finally, we shall investigate the very interesting topic of
+counting the colourings of polygons,
+using Burnside's lemma and the Polya enumeration theorem.
+We can therefore see that combinatorics will involve
+in-depth study of counting algorithms of discrete objects.
+Next,
+we shall take a brief overview of the history of mathematics.
+Let us start from this graph:
+what does the first illustration depict?
+This is in fact
+a calculating tool used by the people of the ancient Incan Empire.
+We can say that mathematics has its roots in counting.
+Then, after grasping the fundamental concept of counting, 
+we began to develop arithmetic,
+elementary algebra, geometry, etc.,
+until the appearance of variables in the 17th century.
+From then on, mathematics moved into virgin territory,
+and thus began the research of more advanced mathematical topics,
+for example linear algebra, probability, etc.
+The collective term given to these topics is mathematical analysis,
+whose fertile grounds has produced
+such mathematical greats as Leibniz, Euler, Gauss, etc.
+Later, we discovered that mathematical analysis alone is insufficient.
+So upon the foundations of mathematical analysis,
+we developed topology, abstract algebra, group theory,
+set theory, number theory etc.
+These form the basis of modern mathematics.
+With the development of computers,
+people gradually found that combinatorics has become
+a very important branch of modern mathematics,
+for it directly impacts upon the theoretic development of informatics.
+From our review of the development of mathematics,
+We discover that the general development of mathematics
+mirrors our own mathematical education.
+There are many parallels to our personal experiences with mathematics.
+When we are very young,
+we begin counting from 1, 2, 3...
+During our secondary education,
+We'd already learned arithmetic and begin studying algebra and geometry.
+Upon entering university,
+we first encounter formal mathematical analysis:
+we study advanced mathematics,
+investigate linear algebra, etc.
+But for modern mathematics,
+we require more specialised tool and techniques.
+For example we learn about graph theory and topology.
+Combinatorics is specially relevant for computing
+and forms part of the theoretical backbone for computer science.
+Only after detailed study (perhaps at the graduate level),
+can we hope to gain a more thorough understanding of algorithms.
+To paraphrase the celebrated combinatorist Brualdi,
+what is combinatorics really concerned with?
+It investigates things that obey, to some degree, a rule or pattern.
+Then we ask ourselves,
+under such a rule,
+do they exist,
+how many distinct forms can they take,
+can the algorithm be ¡®improved¡¯ in some way?
+In combinatorics, then, we aim to answer three major questions.
+First, the question of existence.
+Second, the question of counting.
+Third, the question of optimisation.
+Since we now understand exactly what combinatorics is,
+we shall, in the next lesson, explore in depth
+the origins of combinatorics.

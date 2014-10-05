@@ -1,0 +1,1 @@
+HCopy.exe -C models\config.HCopy z:\1.wav target.mfc
