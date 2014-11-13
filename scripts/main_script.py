@@ -1,74 +1,77 @@
 # encoding=utf-8
 import sys, os, check_dict, srt_convert, words_convert, cmd_wrapper, mlf_gen, mlf_conv, srt_gen
 
-def video_conv():
+dirs = {
+	'video_in': ur"D:/BaiduYunDownload/第四周/",
+	'wav': './wav/',
+	'srt_in': './srt_in/',
+	'sentences': './sentences/',
+	'words': './words/',
+	'mlf_in': './mlfs/',
+	'mlf_out': './result/',
+	'srt_out': './srt_out/'
+}
+
+video_ext = '.mp4'
+
+def video_conv(basename_list):
 	print 'This converts video to wav compatible for HTK'
-	src_dir=ur"D:/BaiduYunDownload/第一周样片/MP4/"
-	dest_dir="z:/C1/"
-	for v in os.listdir(src_dir):
-		if v.endswith('mp4'):
-			basename=os.path.splitext(v)[0]
-			print basename
-			cmd_wrapper.ffmpeg(src_dir+v,dest_dir+basename+'.wav')
+	for basename in basename_list:
+		print basename
+		cmd_wrapper.ffmpeg(dirs['video_in']+basename+video_ext,dirs['wav']+basename+'.wav')
 
 
-def srt_process():
-	os.chdir('../data/')
-	srt_dir='./srt_sample/'
-	sent_dir='./sentences/'
-	words_dir='./words/'
-	mlf_dir='./mlfs/'
-	if not os.path.exists(sent_dir): os.mkdir(sent_dir)
-	if not os.path.exists(words_dir): os.mkdir(words_dir)
-	if not os.path.exists(mlf_dir): os.mkdir(mlf_dir)
-	for fname in os.listdir(srt_dir):
-		basename=fname[:fname.rfind('.')]
-		srt_convert.convert(srt_dir+fname,sent_dir+basename+'.txt')
-		words_convert.convert(sent_dir+basename+'.txt',words_dir+basename+'.txt')
-		check_dict.check(words_dir+basename+'.txt')
-		mlf_gen.gen(words_dir+basename+'.txt_indict', mlf_dir+basename+'.mlf', '"../data/wav/'+basename+'.lab"')
+def srt_process(basename_list):
+	print 'Generate label files from subtitle'
+	for basename in basename_list:
+		print basename
+		srt_convert.convert(dirs['srt_in']+basename+'.srt',dirs['sentences']+basename+'.txt')
+		words_convert.convert(dirs['sentences']+basename+'.txt',dirs['words']+basename+'.txt')
+		check_dict.check(dirs['words']+basename+'.txt')
+		mlf_gen.gen(dirs['words']+basename+'.txt_indict', dirs['mlf_in']+basename+'.mlf', '"../data/wav/'+basename+'.lab"')
 
-def htk():
-	print 'Run htk'
-	os.chdir('../data/')
-	mlf_dir='./mlfs/'
-	res_dir='./result/'
-	if not os.path.exists(mlf_dir): os.mkdir(mlf_dir)
-	if not os.path.exists(res_dir): os.mkdir(res_dir)
-	for fname in os.listdir(mlf_dir):
-		basename=fname[:fname.rfind('.')]
-		cmd_wrapper.htk(mlf_dir+basename+'.mlf',res_dir+basename+'.txt','../data/wav/'+basename+'.wav')
+def htk(basename_list):
+	print 'Run HTK'
+	for basename in basename_list:
+		cmd_wrapper.htk(dirs['mlf_in']+basename+'.mlf',dirs['mlf_out']+basename+'.txt','../data/wav/'+basename+'.wav')
 
-def srtgen():
+def srtgen(basename_list):
 	print 'Generate srt from result'
-	os.chdir('../data/')
-	res_dir='./result/'
-	srt_dir='./srt_out/'
-	words_dir='./words/'
-	sent_dir='./sentences/'
-	if not os.path.exists(srt_dir): os.mkdir(srt_dir)
-	for fname in os.listdir(res_dir):
-		basename=fname[:fname.rfind('.')]
-		mlf_conv.convert(res_dir+fname, words_dir+basename+'.txt_index', 'time.txt')
-		srt_gen.gen(sent_dir+basename+'.txt', 'time.txt', srt_dir+basename+'.srt')
-	os.remove('time.txt')
+	for basename in basename_list:
+		print basename
+		mlf_conv.convert(dirs['mlf_out']+basename+'.txt', dirs['words']+basename+'.txt_index', 'time.txt')
+		srt_gen.gen(dirs['sentences']+basename+'.txt', 'time.txt', dirs['srt_out']+basename+'.srt')
+	# os.remove('time.txt')
 
-def run_all(basename):
-	
-	
+
 class ArgError(Exception):
 	pass
 
 if __name__ == '__main__':
 	d = {'v':video_conv, 's':srt_process, 'h':htk, 'm':srtgen}
 	try:
-		if len(sys.argv)!=2:
+		if len(sys.argv)!=2 and len(sys.argv)!=3:
 			raise ArgError
-		for arg in sys.argv[1]:
-			if arg not in 'vshm':
-				raise ArgError
-			else:
-				d[arg]()
+		os.chdir('../data/')
+		# check and mkdir
+		for d_name in dirs.values():
+			if not os.path.exists(d_name): os.mkdir(d_name)
+		name_list = list()
+		if len(sys.argv) == 2:
+			name_list = [os.path.splitext(s)[0] for s in os.listdir(dirs['video_in'])]
+		else:
+			name_list = [sys.argv[2]]
+		if sys.argv[1] == 'a':
+			d['v'](name_list)
+			d['s'](name_list)
+			d['h'](name_list)
+			d['m'](name_list)
+		else:
+			for arg in sys.argv[1]:
+				if arg not in 'vshm':
+					raise ArgError
+				else:
+					d[arg](name_list)
 	except ArgError:
-		print 'Supported functions: video(v) | srt2mlf(s) | htk(h) | mlf2srt(m) | custom(c)'
-		print 'You can use multiple letters to run them all, e.g. main_script.py vshm'
+		print 'Supported functions: video(v) | srt2mlf(s) | htk(h) | mlf2srt(m) | all(a)'
+		print 'You can use multiple letters, e.g. main_script.py vshm [specify file] or run on all files'

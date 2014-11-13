@@ -6,7 +6,7 @@ def convert(filein,fileout):
 	next=False
 	for line in f:
 		if next==True:
-			fo.write(line)
+			if len(line.strip()) > 0: fo.write(line)
 			next=False
 		if len(line)>3 and line[2]==':' and line[0]=='0':
 			next=True

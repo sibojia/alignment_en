@@ -2,4 +2,4 @@
 
 Notes
 =====
-needed `pip install num2words python-Levenshtein`
+needed `pip install num2words python-Levenshtein chardet`

@@ -1,4 +1,3 @@
-# encoding=utf-8
 from Levenshtein import distance
 
 words=open('../htk/models/all_words.txt').readline().split(' ')
