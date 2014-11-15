@@ -1,6 +1,6 @@
 from Levenshtein import distance
 
-words=open('../htk/models/all_words.txt').readline().split(' ')
+words=open('../htk/models/all_words_ext.txt').readline().split(' ')
 
 def check(filename):
 	print '\n',filename

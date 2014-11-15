@@ -21,13 +21,17 @@ dict_ext={
 	u'β':['beta'],
 	u'γ':['gamma'],
 	u'θ':['theta'],
+	u'π':['pi'],
+	u'Σ':['sigma'],
+	u'∑':['sigma'],
+	u'∞':['infinity'],
 	'T':['square'],
 	'C':['consine'],
 	'S':['sine']
 }
 
 
-def convert(filein, fileout):
+def convert_old(filein, fileout):
 	f=open(filein)
 	fo=open(fileout,'w')
 	foi=open(fileout+'_index','w')
@@ -109,7 +113,7 @@ def convert_word(w):
 	else:
 		return [w_test]
 
-def convert_new(filein, fileout):
+def convert(filein, fileout):
 	f=open(filein)
 	fo=open(fileout,'w')
 	foi=open(fileout+'_index','w')

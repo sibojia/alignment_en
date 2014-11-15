@@ -1,0 +1,45 @@
+import sys
+
+def main():	
+	if len(sys.argv) <= 3:
+		print 'Example: add_word.py file_to_add.dict hello hh ah l ow'
+		return
+	fname=sys.argv[1]
+	adw=sys.argv[2]
+	ads=sys.argv[3:]
+	fin=open(fname).readlines()
+	words=[i.split(' ')[0].strip() for i in fin]
+	if adw in words:
+		print 'Already in dictionary.'
+	else:
+		# words.append(adw)
+		temp=sorted(words,cmp=(lambda x,y:cmp(x.replace('_','zz'),y.replace('_','zz'))))
+		# foo=open('test','w')
+		# for i in temp:
+		# 	foo.write(i)
+		# foo.close()
+		for i in xrange(0,len(temp)):
+			if temp[i]!=words[i]:
+				print i, words[i], temp[i]
+		print temp == words
+		return
+		print words[-10:]
+		adi=temp.index(adw)
+		fo=open('out.dict','w')
+		for i,x in enumerate(fin):
+			if i==adi:
+				fo.write(adw+'  ')
+				fo.write(' '.join(ads))
+				fo.write(' sp\n')
+			fo.write(x)
+		fo.close();
+		print 'Added to index', adi
+
+	# for line in fin:
+	# 	fo.write(line)
+	# 	fo.write(line.strip() + ' sp\n')
+	# fo.close()
+	# fin.close()
+
+if __name__ == '__main__':
+	main()
