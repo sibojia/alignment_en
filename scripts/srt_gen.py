@@ -1,5 +1,5 @@
 import time
-import numpy as np
+# import numpy as np
 
 def strtime(t):
 	s = time.strftime("%H:%M:%S", time.gmtime(float(t)))
