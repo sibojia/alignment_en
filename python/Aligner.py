@@ -19,6 +19,59 @@ class Config():
 	dir_srt_in = '../data/srt_in/'
 	dir_srt_out = '../data/srt_out'
 
+class _WordParser():
+	"""Convert subtitle to basic words for HTK. 
+	Support EN/CN for now."""
+	dict_sub_en={
+		'cos':'C',
+		'sin':'S',
+		'^2':'T'
+	}
+	dict_ext_en={
+		'+':['plus'],
+		'-':['minus'],
+		'*':['times'],
+		'×':['times'],
+		'/':['over'],
+		'=':['equals'],
+		'%':['percent'],
+		'!':['factorial'],
+		u'±':['plus','or','minus'],
+		u'√':['square','root'],
+		u'α':['alpha'],
+		u'β':['beta'],
+		u'γ':['gamma'],
+		u'θ':['theta'],
+		u'π':['pi'],
+		u'Σ':['sigma'],
+		u'∑':['sigma'],
+		u'∞':['infinity'],
+		'T':['square'],
+		'C':['consine'],
+		'S':['sine']
+	}
+
+	def _parseChinese(self, line):
+		return None
+
+	def _parseEnglish(self, line):
+		pass
+
+	def parse(self, lines):
+		
+
+	def setLanguage(self, s):
+		if s == 'cn':
+			self._funcParse = self._parseChinese
+		elif s == 'en':
+			self._funcParse = self._parseEnglish
+			# prepare english word list
+			self.wordlist = open(file_allword).readlines().split(' ')
+
+	def __init__(self, s='en'):
+		self.setLanguage(s)
+		
+
 class _SubtitleData():
 	"""Data structure for alignment
 

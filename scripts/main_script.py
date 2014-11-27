@@ -2,7 +2,7 @@
 import sys, os, check_dict, srt_convert, words_convert, cmd_wrapper, mlf_gen, mlf_conv, srt_gen
 
 dirs = {
-	'video_in': ur"D:/BaiduYunDownload/第四周/",
+	'video_in': ur"D:/BaiduYunDownload/第七周/",
 	'wav': './wav/',
 	'srt_in': './srt_in/',
 	'sentences': './sentences/',
